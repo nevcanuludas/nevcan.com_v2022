@@ -257,7 +257,9 @@ h1.white, h2.white, h3.white, h4.white, h5.white, h6.white {
 
 h2.bottom img {
   position: absolute;
-  bottom: 0; }
+  bottom: 0;
+  max-width: 50vw;
+}
 
 h2.top img {
   position: absolute;
