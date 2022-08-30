@@ -178,7 +178,8 @@ h1.white, h2.white, h3.white, h4.white, h5.white, h6.white {
   display: block;
   float: right;
   background: #0483ca;
-  padding: 160px 10% 40px 80px; }
+  padding: 4rem;
+}
 
 .box.active {
   overflow: auto;
@@ -699,26 +700,38 @@ h2.top img {
 .post {
   background: #f9f9f9;
   overflow: hidden;
-  margin-bottom: 30px; }
-  .post .image {
-    float: left;
-    width: 400px;
-    height: 100%; }
-  .post .content {
-    padding: 40px;
-    margin-left: 400px; }
-  .post h3 {
-    margin-bottom: 40px;
-    font-family: raleway;
-    font-size: 40px;
-    line-height: 45px; }
-  .post h3 a {
-    color: #333; }
-  .post h3 a:hover {
-    color: #0483ca; }
-  .post p.info {
-    color: #999;
-    font-size: 14px; }
+  margin-bottom: 30px;
+}
+
+.post .image {
+  float: left;
+  width: 400px;
+}
+
+.post .content {
+  padding: 40px;
+  margin-left: 400px;
+}
+
+.post h3 {
+  margin-bottom: 40px;
+  font-family: raleway;
+  font-size: 40px;
+  line-height: 45px;
+}
+
+.post h3 a {
+  color: #333;
+}
+
+.post h3 a:hover {
+  color: #0483ca;
+}
+
+.post p.info {
+  color: #999;
+  font-size: 14px;
+}
 
 .post.single {
   background: none; }

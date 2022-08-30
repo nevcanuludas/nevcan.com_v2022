@@ -1,9 +1,16 @@
 <!-- https://yourplanyourplanet.sustainability.google
 fontlar icin bu site referans alinabilir
 http://html.blahlab.com/creative/
+
+TODO:
+- imaj boylarini ayarla, webp olayina goz at
+- seo icin gerekli ayarlamalari yap
+- google tag manager ayarlamalari
+- google speed test
+- x den sonra education a gittiginde filtre patliyor
 -->
 
-<html class=" js flexbox flexboxlegacy canvas canvastext webgl no-touch geolocation postmessage websqldatabase indexeddb hashchange history draganddrop websockets rgba hsla multiplebgs backgroundsize borderimage borderradius boxshadow textshadow opacity cssanimations csscolumns cssgradients cssreflections csstransforms no-csstransforms3d csstransitions fontface generatedcontent video audio localstorage sessionstorage webworkers no-applicationcache svg inlinesvg smil svgclippaths" lang="en" style="">
+<html class=" js flexbox flexboxlegacy canvas canvastext webgl no-touch geolocation postmessage websqldatabase indexeddb hashchange history draganddrop websockets rgba hsla multiplebgs backgroundsize borderimage borderradius boxshadow textshadow opacity cssanimations csscolumns cssgradients cssreflections csstransforms no-csstransforms3d csstransitions fontface generatedcontent video audio localstorage sessionstorage webworkers no-applicationcache svg inlinesvg smil svgclippaths" lang="en">
   <head>
     <meta charset="utf-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
@@ -11,13 +18,14 @@ http://html.blahlab.com/creative/
     <link rel="stylesheet" href="css/app.css">
     <link rel="stylesheet" href="css/style.css">
     <link rel="stylesheet" href="css/responsive.css">
-    <link href="css/fontello.css" media="screen" rel="stylesheet" type="text/css">
-    <link href="css/font-awesome.css" media="screen" rel="stylesheet" type="text/css">
-    <link href="css/nevis.css" media="screen" rel="stylesheet" type="text/css">
-    <link href="css/slick.css" media="screen" rel="stylesheet" type="text/css">
-    <link href="css/slick-theme.css" media="screen" rel="stylesheet" type="text/css">
+    <link rel="stylesheet" media="screen" type="text/css" href="css/fontello.css">
+    <link rel="stylesheet" media="screen" type="text/css" href="css/font-awesome.css">
+    <link rel="stylesheet" media="screen" type="text/css" href="css/nevis.css">
+    <link rel="stylesheet" media="screen" type="text/css" href="css/slick.css">
+    <link rel="stylesheet" media="screen" type="text/css" href="css/slick-theme.css">
     <script src="bower_components/modernizr/modernizr.js"></script>
-    <link href="http://fonts.googleapis.com/css?family=Raleway:400,700,300" media="screen" rel="stylesheet" type="text/css">
+    <link rel="stylesheet" media="screen" type="text/css" href="http://fonts.googleapis.com/css?family=Raleway:400,700,300">
+
     <meta class="foundation-data-attribute-namespace">
     <meta class="foundation-mq-xxlarge">
     <meta class="foundation-mq-xlarge-only">
@@ -31,13 +39,18 @@ http://html.blahlab.com/creative/
     <meta class="foundation-mq-topbar">
   </head>
 
-  <body class="">
+  <body>
+    <!-- ABOUT NEV -->
     <div id="about" class="box">
+
+      <!-- HEADER - ABOUT NEV -->
       <div class="header">
         <div class="special-title">
           <nav>
             <h2 class="bottom">
-              <a href="#"><img src="images/home/about.png" alt="About Nev"></a>
+              <a href="#">
+                <img src="images/home/about.png" alt="About Nev">
+              </a>
             </h2>
           </nav>
         </div>
@@ -49,9 +62,12 @@ http://html.blahlab.com/creative/
           <p style="color: white">I am individually interested in technical deep diving, mixture gases, closed circuit rebreathers (CCR) and my actual passion cave diving.</p>
         </div>
       </div>
+      <!-- #HEADER - ABOUT NEV -->
     
+      <div class="four spacing"></div>
+
+      <!-- PROFESSION - ABOUT NEV -->
       <div class="content invisible">
-        <div class="four spacing"></div>
         <div class="row">
           <div class="large-12 columns">
             <div class="section-title">
@@ -63,9 +79,9 @@ http://html.blahlab.com/creative/
         <div class="row">
           <div class="large-4 columns">
             <div class="member">
-              <img src="images/about/deepdivedubaiexterior.webp" alt="Deep Dive Dubai">
-              <img class="colored" src="images/about/deepdivedubaiexterior.webp" alt="Deep Dive Dubai">
-              <div class="letter-overlay">DDD</div>
+              <img src="images/about/profession/deepdivedubai.webp" alt="Deep Dive Dubai" style="filter: grayscale(100%);">
+              <img class="colored" src="images/about/profession/deepdivedubai.webp" alt="Deep Dive Dubai">
+              <!-- <div class="letter-overlay">DDD</div> -->
               <h4>GUE Instructor</h4>
               <p class="position">@ Deep Dive Dubai</p>
               <ul>
@@ -79,9 +95,9 @@ http://html.blahlab.com/creative/
 
           <div class="large-4 columns">
             <div class="member">
-              <img src="images/about/deepdivedubaiexterior.webp" alt="Deep Dive Dubai">
-              <img class="colored" src="images/about/deepdivedubaiexterior.webp" alt="Deep Dive Dubai">
-              <div class="letter-overlay">GT</div>
+              <img src="images/about/profession/gueturkey.jpeg" alt="GUE Turkey" style="filter: grayscale(100%);">
+              <img class="colored" src="images/about/profession/gueturkey.jpeg" alt="GUE Turkey">
+              <!-- <div class="letter-overlay">GT</div> -->
               <h4>Country Manager</h4>
               <p class="position">@ GUE Turkey</p>
               <ul>
@@ -95,737 +111,651 @@ http://html.blahlab.com/creative/
 
           <div class="large-4 columns">
             <div class="member">
-              <img src="images/about/deepdivedubaiexterior.webp" alt="Deep Dive Dubai">
-              <img class="colored" src="images/about/deepdivedubaiexterior.webp" alt="Deep Dive Dubai">
-              <div class="letter-overlay">GA</div>
+              <img src="images/about/profession/gueacademy.png" alt="GUE Academy" style="filter: grayscale(100%);">
+              <img class="colored" src="images/about/profession/gueacademy.png" alt="GUE Academy">
+              <!-- <div class="letter-overlay" style="color: white;">GA</div> -->
               <h4>Product Owner</h4>
               <p class="position">@ GUE Academy</p>
               <ul>
                 <li><a href="https://www.gueacademy.com/" target="_blank"><i class="fa fa-globe"></i></a></li>
               </ul>
-              </div>
             </div>
           </div>
         </div>
+      </div>
+      <!-- #PROFESSION - ABOUT NEV -->
 
-        <div class="four spacing"></div>
-        <div class="two spacing"></div>
-    
-        <div class="row">
-          <div class="large-12 columns">
-            <div class="section-title">
-              <h2>Organizations</h2>
-            </div>
+      <div class="four spacing"></div>
+
+      <!-- ORGANIZATION - ABOUT NEV -->
+      <div class="row">
+        <div class="large-12 columns">
+          <div class="section-title">
+            <h2>Organizations</h2>
           </div>
         </div>
+      </div>
 
-        <div class="row">
-          <div class="large-12 columns">
-            <div class="clients slick-initialized slick-slider">
-              <div aria-live="polite" class="slick-list draggable" tabindex="0">
-                <div class="slick-track" style="opacity: 1; width: 2324px; transform: translate3d(-1660px, 0px, 0px); transition: transform 500ms ease 0s;">
-                  <div class="slick-slide slick-cloned" aria-hidden="true" style="width: 166px;" data-slick-index="-4">
-                    <a href="#"><img alt="" src="images/about/organizations/gue.png"></a>
-                  </div>
-                  
-                  <div class="slick-slide slick-cloned" aria-hidden="true" style="width: 166px;" data-slick-index="-3">
-                    <a href="#"><img alt="" src="images/about/organizations/tssf.png"></a>
-                  </div>
-                  
-                  <div class="slick-slide slick-cloned" aria-hidden="true" style="width: 166px;" data-slick-index="-2">
-                    <a href="#"><img alt="" src="images/about/organizations/cmas.png"></a>
-                  </div>
-                  
-                  <div class="slick-slide slick-cloned" aria-hidden="true" style="width: 166px;" data-slick-index="-1">
-                    <a href="#"><img alt="" src="images/about/organizations/aida.png"></a>
-                  </div>
-                  
-                  <div class="slick-slide slick-active" aria-hidden="false" style="width: 166px;" data-slick-index="0">
-                    <a href="#"><img alt="" src="images/about/organizations/ssi.png"></a>
-                  </div>
-                  
-                  <div class="slick-slide slick-active" aria-hidden="false" style="width: 166px;" data-slick-index="1">
-                    <a href="#"><img alt="" src="images/about/organizations/ils.png"></a>
-                  </div>
-                  
-                  <div class="slick-slide slick-active" aria-hidden="false" style="width: 166px;" data-slick-index="2">
-                    <a href="#"><img alt="" src="images/about/organizations/tdi.png"></a>
-                  </div>
-                  
-                  <div class="slick-slide slick-active" aria-hidden="false" style="width: 166px;" data-slick-index="3">
-                    <a href="#"><img alt="" src="images/about/organizations/protec.png"></a>
-                  </div>
-                  
-                  <div class="slick-slide" aria-hidden="true" style="width: 166px;" data-slick-index="4">
-                    <a href="#"><img alt="" src="images/about/organizations/halcyon.png"></a>
-                  </div>
-                  
-                  <div class="slick-slide" aria-hidden="true" style="width: 166px;" data-slick-index="5">
-                    <a href="#"><img alt="" src="images/about/organizations/sf2.png"></a>
-                  </div>
-                  
-                  <div class="slick-slide slick-cloned" aria-hidden="true" style="width: 166px;" data-slick-index="6">
-                    <a href="#"><img alt="" src="images/about/organizations/suex.png"></a>
-                  </div>
-                  
-                  <div class="slick-slide slick-cloned" aria-hidden="true" style="width: 166px;" data-slick-index="7">
-                    <a href="#"><img alt="" src="images/about/organizations/shearwater.png"></a>
-                  </div>
+      <!-- TODO: brand slider calismiyor -->
+      <div class="row">
+        <div class="large-12 columns">
+          <div class="clients slick-initialized slick-slider">
+            <div aria-live="polite" class="slick-list draggable" tabindex="0">
+              <div class="slick-track" style="opacity: 1; width: 2324px; transform: translate3d(-1660px, 0px, 0px); transition: transform 500ms ease 0s;">
+                <div class="slick-slide slick-cloned" aria-hidden="true" style="width: 166px;" data-slick-index="-4">
+                  <a href="#"><img alt="GUE" src="images/about/organizations/gue.png"></a>
+                </div>
+                
+                <div class="slick-slide slick-cloned" aria-hidden="true" style="width: 166px;" data-slick-index="-3">
+                  <a href="#"><img alt="TSSF" src="images/about/organizations/tssf.png"></a>
+                </div>
+                
+                <div class="slick-slide slick-cloned" aria-hidden="true" style="width: 166px;" data-slick-index="-2">
+                  <a href="#"><img alt="CMAS" src="images/about/organizations/cmas.png"></a>
+                </div>
+                
+                <div class="slick-slide slick-cloned" aria-hidden="true" style="width: 166px;" data-slick-index="-1">
+                  <a href="#"><img alt="AIDA" src="images/about/organizations/aida.png"></a>
+                </div>
+                
+                <div class="slick-slide slick-active" aria-hidden="false" style="width: 166px;" data-slick-index="0">
+                  <a href="#"><img alt="SSI" src="images/about/organizations/ssi.png"></a>
+                </div>
+                
+                <div class="slick-slide slick-active" aria-hidden="false" style="width: 166px;" data-slick-index="1">
+                  <a href="#"><img alt="ILS" src="images/about/organizations/ils.png"></a>
+                </div>
+                
+                <div class="slick-slide slick-active" aria-hidden="false" style="width: 166px;" data-slick-index="2">
+                  <a href="#"><img alt="TDI" src="images/about/organizations/tdi.png"></a>
+                </div>
+                
+                <div class="slick-slide slick-active" aria-hidden="false" style="width: 166px;" data-slick-index="3">
+                  <a href="#"><img alt="ProTec" src="images/about/organizations/protec.png"></a>
+                </div>
+                
+                <div class="slick-slide" aria-hidden="true" style="width: 166px;" data-slick-index="4">
+                  <a href="#"><img alt="Halcyon" src="images/about/organizations/halcyon.png"></a>
+                </div>
+                
+                <div class="slick-slide" aria-hidden="true" style="width: 166px;" data-slick-index="5">
+                  <a href="#"><img alt="SF2" src="images/about/organizations/sf2.png"></a>
+                </div>
+                
+                <div class="slick-slide slick-cloned" aria-hidden="true" style="width: 166px;" data-slick-index="6">
+                  <a href="#"><img alt="SUEX" src="images/about/organizations/suex.png"></a>
+                </div>
+                
+                <div class="slick-slide slick-cloned" aria-hidden="true" style="width: 166px;" data-slick-index="7">
+                  <a href="#"><img alt="Shearwater" src="images/about/organizations/shearwater.png"></a>
                 </div>
               </div>
-              
-              <button type="button" data-role="none" class="slick-prev" aria-label="previous" style="display: block;">Previous</button>
-              <button type="button" data-role="none" class="slick-next" aria-label="next" style="display: block;">Next</button>
             </div>
+            
+            <button type="button" data-role="none" class="slick-prev" aria-label="previous" style="display: block;">Previous</button>
+            <button type="button" data-role="none" class="slick-next" aria-label="next" style="display: block;">Next</button>
           </div>
+        </div>
+      </div>
+      <!-- #ORGANIZATION - ABOUT NEV -->
+
+      <div class="four spacing"></div>
+
+      <!-- COMMIT TO EXCELLENCE - ABOUT NEV -->
+      <div class="row">
+        <div class="large-12 columns">
+          <div class="section-title">
+            <h2>Commit to Excellence</h2>
+          </div>
+        </div>
+      </div>
+      <!-- #COMMIT TO EXCELLENCE - ABOUT NEV -->
+
+      <div class="four spacing"></div>
+
+      <!-- MISSIONS - ABOUT NEV -->
+      <div class="row">
+        <div class="large-12 columns">
+          <div class="section-title">
+            <h2>Missions</h2>
+          </div>
+        </div>
+      </div>
+      
+      <div class="studio-images full no-overflow no-padding">
+        <div class="large-4 columns no-padding">
+          <img src="images/about/missions/community.jpeg" alt="Education">
         </div>
 
-        <div class="row">
-          <div class="large-12 columns">
-            <div class="section-title">
-              <h2>Commit to Excellence</h2>
-            </div>
-          </div>
+        <div class="large-4 columns no-padding">
+          <img src="images/about/missions/conservation.jpeg" alt="Conservation">
         </div>
-      
+
+        <div class="large-4 columns no-padding">
+          <img src="images/about/missions/exploration.jpeg" alt="Exploration">
+        </div>
+      </div>
+      <!-- #MISSIONS - ABOUT NEV -->
+
+      <!-- FOOTER - ABOUT NEV -->
+      <div class="full centered-text grey">
         <div class="four spacing"></div>
-      
+        <div class="two spacing"></div>
+
+        <h1>Wanna know more?</h1>
+        <div class="spacing"></div>
+        
+        <a href="" class="button let-us-talk">Let's talk</a>
+        <div class="two spacing"></div>
+        <div class="four spacing"></div>
+      </div>
+      <!-- #FOOTER - ABOUT NEV -->
+
+    </div>  
+    <!-- #ABOUT NEV -->
+
+    <!-- PROJECTS -->
+    <div id="service" class="box">
+
+      <!-- HEADER - PROJECTS -->
+      <div class="header">
+        <div class="special-title">
+          <nav>
+            <h2 class="bottom">
+              <a href="#">
+                <img src="images/home/projects.png" alt="Projects">
+              </a>
+            </h2>
+          </nav>
+        </div>
+        
+        <div class="desc invisible">
+          <h2>Conservation & Exploration Projects</h2>
+          <p style="color: white">Placeat vel itaque perspiciatis sed repellat qui nihil recusandae doloremque aperiam necessitatibus aspernatur. illum ad adipisci saepe dolores cumque fugit nihil minus.</p>
+        </div>
+      </div>
+      <!-- #HEADER - PROJECTS -->
+
+      <div class="four spacing"></div>
+
+      <div class="content invisible">
+
+        <!-- PROJECTS - PROJECTS -->
         <div class="row">
           <div class="large-12 columns">
             <div class="section-title">
-              <h2>Missions</h2>
+              <h2>Projects</h2>
             </div>
           </div>
         </div>
-      
-        <div class="studio-images full no-overflow no-padding">
-          <div class="large-4 columns no-padding">
-            <img src="images/about/missions/community.jpeg" alt="Education">
-          </div>
 
-          <div class="large-4 columns no-padding">
-            <img src="images/about/missions/conservation.jpeg" alt="Conservation">
-          </div>
+        <div class="row">
+          <div class="main-services no-overflow">
+            <div class="large-6 columns">
+              <div class="mod icon-text">
+                <div class="icon-text-advanced">
+                  <div class="wrapper">
+                    <div class="content">
+                      <i class="fa fa-bell-o"></i>
+                    </div>
+                  </div>
+                  <h3>Conservation Projects</h3>
+                  <p>Placeat vel itaque perspiciatis sed repellat qui nihil recusandae doloremque aperiam necessitatibus aspernatur. illum ad adipisci saepe dolores cumque fugit nihil minus. </p>
+                  <div class="spacing"></div>
+                </div>
+              </div>
+            </div>
 
-          <div class="large-4 columns no-padding">
-            <img src="images/about/missions/exploration.jpeg" alt="Exploration">
+            <div class="large-6 columns">
+              <div class="mod icon-text">
+                <div class="icon-text-advanced">
+                  <div class="wrapper">
+                    <div class="content">
+                      <i class="fa fa-lightbulb-o"></i>
+                    </div>
+                  </div>
+                  <h3>Exploration Projects</h3>
+                  <p>Placeat vel itaque perspiciatis sed repellat qui nihil recusandae doloremque aperiam necessitatibus aspernatur. illum ad adipisci saepe dolores cumque fugit nihil minus. </p>
+                  <div class="spacing"></div>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+        <!-- #PROJECTS - PROJECTS -->
+
+        <div class="four spacing"></div>
+
+        <!-- HOW TO CONTRUBUTE PB MARMARA - PROJECTS -->
+        <div class="row">
+          <div class="large-12 columns">
+            <div class="section-title">
+              <h2>How to Contrubute<br>PB Marmara</h2>
+            </div>
           </div>
         </div>
 
+        <div class="row">
+          <div class="large-4 columns">
+            <div class="icon-text-diamond">
+              <div class="wrapper">
+                <div class="content">
+                  <i class="fa fa-camera"></i>
+                </div>
+              </div>
+              <h3>Step <span>01</span></h3>
+              <p>Take a photo when you arrive at the corresponding station or see a jellyfish</p>
+              <a href="http://www.gueturkey.com/pb-marmara/images/BuCanlilaraDikkat.jpg" target="_blank">Jellyfish Identification</a>
+            </div>
+            <!-- <div class="two spacing"></div> -->
+          </div>
+
+          <div class="large-4 columns">
+            <div class="icon-text-diamond">
+              <div class="wrapper">
+                <div class="content">
+                  <i class="fa fa-edit"></i>
+                </div>
+              </div>
+              <h3>Step <span>02</span></h3>
+              <p>Save location (station name), date and water temperature status</p>
+              <!-- <a href="#">Learn more</a> -->
+            </div>
+          </div>
+
+          <div class="large-4 columns">
+            <div class="icon-text-diamond">
+              <div class="wrapper">
+                <div class="content">
+                  <i class="fa fa-paper-plane-o"></i>
+                </div>
+              </div>
+              <h3>Step <span>03</span></h3>
+              <p>Share your photos and data with us on our PB Marmara Facebook page</p>
+              <a href="https://www.facebook.com/PBMarmara/" target="_blank">Facebook Page</a>
+            </div>
+            <!-- <div class="two spacing"></div> -->
+          </div>
+        </div>
+        <!-- #HOW TO CONTRUBUTE PB MARMARA - PROJECTS -->
+        
+        <div class="four spacing"></div>
+        
+        <!-- FOOTER - PROJECTS -->
         <div class="full centered-text grey">
           <div class="four spacing"></div>
           <div class="two spacing"></div>
-
           <h1>Have a project in mind?</h1>
           <div class="spacing"></div>
-          
           <a href="" class="button let-us-talk">Let's talk</a>
-          <div class="four spacing"></div>
           <div class="two spacing"></div>
+          <div class="four spacing"></div>
         </div>
-      </div>  
-    </div>
+        <!-- #FOOTER - PROJECTS -->
 
-  <!-- PROJECTS -->
-  <div id="service" class="box">
-    <div class="header">
-      <div class="special-title">
-        <nav>
-          <h2 class="bottom">
-            <a href="#">
-              <img src="images/home/projects.png" alt="Projects">
-            </a>
-          </h2>
-        </nav>
-      </div>
-
-      <div class="desc invisible">
-        <h2>Conservation & Exploration Projects</h2>
-        <p style="color: white">Placeat vel itaque perspiciatis sed repellat qui nihil recusandae doloremque aperiam necessitatibus aspernatur. illum ad adipisci saepe dolores cumque fugit nihil minus.</p>
       </div>
     </div>
-    
-    <div class="content invisible">
+    <!-- #PROJECTS -->
+
+    <!-- EDUCATION -->
+    <div id="work" class="box">
+
+      <!-- HEADER - EDUCATION -->
+      <div class="header">
+        <div class="special-title">
+          <nav>
+            <h2>
+              <a href="#">
+                <img src="images/home/education.png" alt="Education">
+              </a>
+            </h2>
+          </nav>
+        </div>
+
+        <div class="desc invisible">
+          <h1 style="color: white">Education</h1>
+          <p style="color: white; font-size: 1.3em;">GUE is a leader in scuba education, having developed numerous industry-first training protocols and utilizing an elite cast of diving educators.</p>
+        </div>
+      </div>
+      <!-- #HEADER - EDUCATION -->
+
       <div class="four spacing"></div>
 
-      <div class="row">
-        <div class="large-12 columns">
-          <div class="section-title">
-            <h2>Projects</h2>
-          </div>
-        </div>
-      </div>
-
-    <div class="row">
-      <div class="main-services no-overflow">
-          <div class="large-6 columns">
-            <div class="mod icon-text">
-            <div class="icon-text-advanced">
-              <div class="wrapper">
-              <div class="content">
-                <i class="fa fa-bell-o"></i>
-              </div>
-              </div>
-              <h3>Conservation Projects</h3>
-              <p>Placeat vel itaque perspiciatis sed repellat qui nihil recusandae doloremque aperiam necessitatibus aspernatur. illum ad adipisci saepe dolores cumque fugit nihil minus. </p>
-              <div class="spacing"></div>
-            </div>
-            </div>
-          </div>
-          <div class="large-6 columns">
-            <div class="mod icon-text">
-              <div class="icon-text-advanced">
-              <div class="wrapper">
-                <div class="content">
-                <i class="fa fa-lightbulb-o"></i>
-                </div>
-              </div>
-              <h3>Exploration Projects</h3>
-              <p>Placeat vel itaque perspiciatis sed repellat qui nihil recusandae doloremque aperiam necessitatibus aspernatur. illum ad adipisci saepe dolores cumque fugit nihil minus. </p>
-              <div class="spacing"></div>
-              </div>
-            </div>
-          </div>
-      </div>
-    </div>
-
-
-  <div class="four spacing"></div>
-
-  <div class="row">
-  <div class="large-12 columns">
-    <div class="section-title">
-    <h2>How to Contrubute<br>PB Marmara</h2>
-    </div>
-  </div>
-  </div>
-
-
-  <div class="row">
-  <div class="large-4 columns">
-    <div>
-    <div class="icon-text-diamond">
-      <div class="wrapper">
-      <div class="content">
-        <i class="fa fa-camera"></i>
-      </div>
-      </div>
-      <h3>Step <span>01</span></h3>
-      <p>Take a photo when you arrive at the corresponding station or see a jellyfish</p>
-      <a href="http://www.gueturkey.com/pb-marmara/images/BuCanlilaraDikkat.jpg" target="_blank">Jellyfish Identification</a>
-
-    </div>
-    <div class="two spacing"></div>
-    </div>
-  </div>
-  <div class="large-4 columns">
-    <div>
-    <div class="icon-text-diamond">
-      <div class="wrapper">
-      <div class="content">
-        <i class="fa fa-edit"></i>
-      </div>
-      </div>
-      <h3>Step <span>02</span></h3>
-      <p>Save location (station name), date and water temperature status</p>
-      <!-- <a href="#">Learn more</a> -->
-    </div>
-    <div class="two spacing"></div>
-    </div>
-  </div>
-  <div class="large-4 columns">
-    <div>
-    <div class="icon-text-diamond">
-      <div class="wrapper">
-      <div class="content">
-        <i class="fa fa-paper-plane-o"></i>
-      </div>
-      </div>
-      <h3>Step <span>03</span></h3>
-      <p>Share your photos and data with us on our PB Marmara Facebook page</p>
-      <a href="https://www.facebook.com/PBMarmara/" target="_blank">Facebook Page</a>
-    </div>
-    <div class="two spacing"></div>
-    </div>
-  </div>
-  </div>
-  <div class="four spacing"></div>
-  <div class="full centered-text grey">
-  <div class="four spacing"></div>
-  <div class="two spacing"></div>
-  <h1>Have a project in mind?</h1>
-  <div class="spacing"></div>
-  <a href="" class="button let-us-talk">Let's talk</a>
-  <div class="four spacing"></div>
-  <div class="two spacing"></div>
-  </div>
-
-</div>  </div>
-
-  <!-- EDUCATION -->
-  <div id="work" class="box">
-    <div class="header">
-      <div class="special-title">
-        <nav>
-          <h2>
-            <a href="#">
-              <img src="images/home/education.png" alt="Education">
-            </a>
-          </h2>
-        </nav>
-      </div>
-
-      <div class="desc invisible">
-        <h1 style="color: white">Education</h1>
-        <p style="color: white; font-size: 1.3em;">GUE is a leader in scuba education, having developed numerous industry-first training protocols and utilizing an elite cast of diving educators.</p>
-      </div>
-    </div>
-
-    <div class="content invisible">
-      <div class="four spacing"></div>
-      <div class="row">
-        <div class="large-12 columns">
-          <div class="section-title">
-            <h2>Courses</h2>
-          </div>
-        </div>
-      </div>
-
-      <div class="full">
+      <div class="content invisible">
+        <!-- COURSES - EDUCATION -->
         <div class="row">
           <div class="large-12 columns">
-            <div class="masonry-gallery" data-gutter="" id="masonry-gallery">
-              <div class="gallery-nav">
-                <ul>
-                  <li class="current">
-                    <a data-cat="all" href="#">All</a>
+            <div class="section-title">
+              <h2>Courses</h2>
+            </div>
+          </div>
+        </div>
+
+        <div class="full">
+          <div class="row">
+            <div class="large-12 columns">
+              <div class="masonry-gallery" data-gutter="" id="masonry-gallery">
+                <!-- filter section -->
+                <div class="gallery-nav">
+                  <ul>
+                    <li class="current">
+                      <a data-cat="all" href="#">All</a>
+                    </li>
+                    <li>
+                      <a data-cat="rec" href="#">Recreational</a>
+                    </li>
+                    <li>
+                      <a data-cat="fund" href="#">Foundational</a>
+                    </li>
+                  </ul>
+                </div>
+
+                <!-- courses list -->
+                <ul class="gallery">
+                  <li class="rec">
+                    <a href="https://www.gue.com/diver-training/explore-gue-courses/discover-diving" target='_blank' data-link="works/1.html">
+                    <img alt="" src="images/courses/rec-dd.jpeg">
+                    <div class="overlay">
+                      <div class="thumb-info">
+                      <h3>Discover Diving</h3>
+                      <p>Recreational Curriculum</p>
+                      </div>
+                    </div>
+                    </a>
+                  </li>
+                  <li class="rec">
+                    <a href="https://www.gue.com/diver-training/explore-gue-courses/recreational/supervised-diver" target='_blank' data-link="works/2.html">
+                    <img alt="" src="images/courses/rec-sd.jpeg">
+                    <div class="overlay">
+                      <div class="thumb-info">
+                      <h3>Supervised Diver</h3>
+                      <p>Recreational Curriculum</p>
+                      </div>
+                    </div>
+                    </a>
                   </li>
 
-                  <li>
-                    <a data-cat="rec" href="#">Recreational</a>
+                  <li class="rec">
+                    <a href="https://www.gue.com/diver-training/explore-gue-courses/recreational/rec-1" target='_blank' data-link="works/3.html">
+                    <img alt="" src="images/courses/rec1.jpeg">
+                    <div class="overlay">
+                      <div class="thumb-info">
+                      <h3>Recreational 1</h3>
+                      <p>Recreational Curriculum</p>
+                      </div>
+                    </div>
+                    </a>
                   </li>
-                  
-                  <li>
-                    <a data-cat="fund" href="#">Foundational</a>
+
+                  <li class="rec">
+                    <a href="https://www.gue.com/diver-training/explore-gue-courses/recreational/rec-2" target='_blank' data-link="works/1.html">
+                    <img alt="" src="images/courses/rec2.jpeg">
+                    <div class="overlay">
+                      <div class="thumb-info">
+                      <h3>Recreational 2</h3>
+                      <p>Recreational Curriculum</p>
+                      </div>
+                    </div>
+                    </a>
+                  </li>
+
+                  <li class="fund">
+                    <a href="https://www.gue.com/diver-training/explore-gue-courses/foundational/fundamentals" target='_blank' data-link="works/1.html">
+                    <img alt="" src="images/courses/fund.jpeg">
+                    <div class="overlay">
+                      <div class="thumb-info">
+                      <h3>Fundamentals</h3>
+                      <p>Foundational Curriculum</p>
+                      </div>
+                    </div>
+                    </a>
+                  </li>
+
+                  <li class="fund">
+                    <a href="https://www.gue.com/diver-training/explore-gue-courses/foundational/doubles-primer" target='_blank' data-link="works/1.html">
+                    <img alt="" src="images/courses/primer-doubles.jpeg">
+                    <div class="overlay">
+                      <div class="thumb-info">
+                      <h3>Doubles Primer</h3>
+                      <p>Foundational Curriculum</p>
+                      </div>
+                    </div>
+                    </a>
+                  </li>
+
+                  <li class="fund">
+                    <a href="https://www.gue.com/diver-training/explore-gue-courses/foundational/drysuit-primer" target='_blank' data-link="works/3.html">
+                    <img alt="" src="images/courses/primer-drysuit.jpeg">
+                    <div class="overlay">
+                      <div class="thumb-info">
+                      <h3>Drysuit Primer</h3>
+                      <p>Foundational Curriculum</p>
+                      </div>
+                    </div>
+                    </a>
+                  </li>
+
+                  <li class="fund">
+                    <a href="https://www.gue.com/diver-training/explore-gue-courses/foundational/rescue" target='_blank' data-link="works/3.html">
+                    <img alt="" src="images/courses/primer-rescue.jpeg">
+                    <div class="overlay">
+                      <div class="thumb-info">
+                      <h3>Rescue Primer</h3>
+                      <p>Foundational Curriculum</p>
+                      </div>
+                    </div>
+                    </a>
+                  </li>
+
+                  <li class="fund">
+                    <a href="https://www.gue.com/diver-training/explore-gue-courses/foundational/triox" target='_blank' data-link="works/3.html">
+                    <img alt="" src="images/courses/primer-triox.jpeg">
+                    <div class="overlay">
+                      <div class="thumb-info">
+                      <h3>Triox Primer</h3>
+                      <p>Foundational Curriculum</p>
+                      </div>
+                    </div>
+                    </a>
+                  </li>
+
+                  <li class="fund">
+                    <a href="https://www.gue.com/diver-training/explore-gue-courses/foundational/navigation" target='_blank' data-link="works/3.html">
+                    <img alt="" src="images/courses/primer-navigation.jpeg">
+                    <div class="overlay">
+                      <div class="thumb-info">
+                      <h3>Navigation Primer</h3>
+                      <p>Foundational Curriculum</p>
+                      </div>
+                    </div>
+                    </a>
                   </li>
                 </ul>
+
+              </div>
+            </div>
+          </div>
+        </div>
+        <!-- #COURSES - EDUCATION -->
+
+        <div class="four spacing"></div>
+
+        <!-- SCUBA COACHING - EDUCATION -->
+        <div class="row">
+          <div class="large-12 columns">
+            <div class="section-title">
+              <h2>Scuba Coaching</h2>
+            </div>
+          </div>
+        </div>
+        <!-- #SCUBA COACHING - EDUCATION -->
+
+        <div class="four spacing"></div>
+
+        <!-- COMMUNITY DEVELOPMENT - EDUCATION -->
+        <div class="row">
+          <div class="large-12 columns">
+            <div class="section-title">
+              <h2>Community Development</h2>
+            </div>
+          </div>
+        </div>
+        <!-- #COMMUNITY DEVELOPMENT - EDUCATION -->
+        
+        <!-- FOOTER - EDUCATION -->
+        <div class="full centered-text grey" style="padding: 6rem 0; margin-top: 6rem">
+          <h1>Where do I begin?</h1>
+          <div class="spacing"></div>
+          <a href="" class="button let-us-talk">Let's talk</a>
+        </div>
+        <!-- #FOOTER - EDUCATION -->
+
+      </div>
+    </div>
+    <!-- #EDUCATION -->
+
+    <!-- BLOG -->
+    <div id="blog" class="box">
+
+      <!-- HAEDER - BLOG -->
+      <div class="header">
+        <div class="special-title">
+          <nav>
+            <h2>
+              <a href="#">
+                <img src="images/@stock/blog.png" alt="Blog">
+              </a>
+            </h2>
+          </nav>
+        </div>
+
+        <div class="desc invisible">
+          <h2>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Inventore, officia ipsum eum. Illo pariatur sapiente laborum quis accusamus eius doloribus necessitatibus!</h2>
+        </div>
+      </div>
+      <!-- #HEADER -BLOG -->
+      
+      <div class="four spacing"></div>
+
+      <!-- BLOG LIST - BLOG -->
+      <div class="content invisible">
+        <div class="row">
+          <div class="large-12 columns">
+            
+            <!-- SINGLE BLOG - BLOG -->
+            <div class="post">
+              <div class="image">
+                <a href="single.html">
+                  <img alt="" src="images/about/missions/community.jpeg">
+                </a>
+              </div>
+              <div class="content">
+                <h3><a href="single.html">You can't do it unless you can imagine it.</a></h3>
+                <p class="info">
+                  <span>December 15, 2014</span>/<span>by<a href="#">admin</a></span>/<span>In<a href="#">design</a></span>/<span><a href="#">4 commetns</a></span>
+                </p>
+              </div>
+            </div>
+            <!-- #SINGLE BLOG - BLOG -->
+
+          </div>
+        </div>
+      </div>
+      <!-- #BLOG LIST - BLOG -->
+
+      <div class="four spacing"></div>
+      
+    </div>
+    <!-- #BLOG -->
+
+    <!-- QRCODE -->
+    <div class="logo" id="logo">
+      <h1>Creative</h1>
+      <div class="logo-image">
+        <a href="http://qr.gue.com/Nevcan" target="_blank">
+          <img src="images/qr.png" alt="QR Code">
+        </a>
+      </div>
+    </div>
+    <!-- #QRCODE -->
+
+    <!-- MAIN MENU -->
+    <nav>
+      <a href="#" id="back" class="hide">
+        <i class="fa fa-close"></i>
+      </a>
+    </nav>
+    <!-- #MAIN MENU -->
+
+    <!-- CONTACT -->
+    <div id="contact">
+      <h2 class="handle">
+        <a href="">Contact</a>
+      </h2>
+      
+      <div class="contact-info hide" style="display: none;">
+        <div class="four spacing"></div>
+        <div class="row">
+          <div class="large-7 columns">
+            <div class="form">
+              <h1>Lorem ipsum</h1>
+              <ul>
+                <li>quest magazine</li>
+                <li>gue.tv</li>
+                <li>indepth.blog</li>
+                <li>gueacademy.com</li>
+                <li>gueturkey.com</li>
+              </ul>
+            </div>
+          </div>
+
+          <div class="large-4 columns">
+            <div class="contact-details">
+              <!-- Dive center -->
+              <h4>Dive Center:</h4>
+              <p>Deep Dive Dubai, <br>Nad Al Sheba 1, Dubai, UAE</p>
+              
+              <!-- Phone -->
+              <h4>Phone:</h4>
+              <p>
+                🇹🇷 <a href="tel:+905555435144">+90 555 543 5144</a>
+                <br>
+                🇦🇪 <a href="tel:+971504715144">+971 50 471 5144</a>
+                <div style="width: 20px;">
+                  <a href="https://api.whatsapp.com/send?phone=905555435144&amp;amp;text=Hello%20👋🏻" target="_blank" title="Whatsapp"><img data-v-7377549c="" src="data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAAFAAAABQCAMAAAC5zwKfAAAB5lBMVEUAAAD////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////+/v5Zz2VVzWJDxFQ/wVEtt0L6+vpIxldc0WgwuUVLyFpRy184vks2vEkptkBNyVw7wE79/P1Qyl4ntT5g02tGxVUzu0j8/Pwrt0AiszcDqBslujkZsy8HqiENqyMvvkHw+fE+xU0itjYUrysMpiNKzFdCy08SrScpvjsbsDHi9uVtzXpUz183xkXa8N3S8ta96sKI1pM1wUYsuj75/frq+OzD5sio5q7K7tCi46l30YPz+/Tn9enW89qV1J6T3J1704l9y4hlw3JSu2JOzlotwj0CohoAphal3K6f16ed36WF1I9/2odkyXJl1HBXxWdSw2FKwFo+vFE9yEo6xUr2+/fZ9NzE68m647+147u06rmZ2aNfxm0xwkIqrT0Aow3Q7NOq4bKO1ZeM3pRzzYBw1Xxl0XFNv11Gy1NDvlM7tUwbqDDL6s6x5biN2piF245bvWkws0EAmwCGdOs+AAAALnRSTlMAAwUJnNDwu1oP9rMvHepvX0PWiWtJFqmje04+Nycj+uDGwYNmVPiUjoDlc9rLMN5SwAAACHxJREFUWMPFmIdf00AUx6HsLSigiLi3vi6o2Ka0QOlu6aCDvYeCKFuZAu699/xPfTdISiMBx0d/tNxd8ss3771Lrk1T/oNSE/TnsL8cGW3TqoqPHysq2pNdmp/DtvxOpPygqtKivRmZB4HqYO6hvNPZ+Wl09+/g8neVZ4JcWWeLfzlKYt6fLtLkzF1pzLVzXHFWLijp3DGVjKjAO7D3IGynjOKd5Z2KZy4qhERdbr3dNTzcNdbavBmZXiYSlcPLAkkD3UMvltqnWlBT7Y0LI/dvg6SSUjxgW17FGSm0+y80kchbRGlQ7caWlkhkamGoVTQcPM2ISrw91KnGd/PQUiTSrrnQmKALmvaWSPv4bWZBnVQpEbEi+xhPDfb77WtTjT+VNhIZHwCuvLQUlUJ8yGMaW+po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" alt="whatsapp"></a>
+                </div>
+              </p>
+
+              <!-- Email -->
+              <div>
+                <h4>Email:</h4>
+                <p>nev@gue.com</p>
               </div>
 
-              <ul class="gallery">
-                <li class="rec">
-                  <a href="https://www.gue.com/diver-training/explore-gue-courses/discover-diving" target='_blank' data-link="works/1.html">
-                  <img alt="" src="images/courses/rec-dd.jpeg">
-                  <div class="overlay">
-                    <div class="thumb-info">
-                    <h3>Discover Diving</h3>
-                    <p>Recreational Curriculum</p>
-                    </div>
-                  </div>
-                  </a>
-                </li>
-                <li class="rec">
-                  <a href="https://www.gue.com/diver-training/explore-gue-courses/recreational/supervised-diver" target='_blank' data-link="works/2.html">
-                  <img alt="" src="images/courses/rec-sd.jpeg">
-                  <div class="overlay">
-                    <div class="thumb-info">
-                    <h3>Supervised Diver</h3>
-                    <p>Recreational Curriculum</p>
-                    </div>
-                  </div>
-                  </a>
-                </li>
-
-                <li class="rec">
-                  <a href="https://www.gue.com/diver-training/explore-gue-courses/recreational/rec-1" target='_blank' data-link="works/3.html">
-                  <img alt="" src="images/courses/rec1.jpeg">
-                  <div class="overlay">
-                    <div class="thumb-info">
-                    <h3>Recreational 1</h3>
-                    <p>Recreational Curriculum</p>
-                    </div>
-                  </div>
-                  </a>
-                </li>
-
-                <li class="rec">
-                  <a href="https://www.gue.com/diver-training/explore-gue-courses/recreational/rec-2" target='_blank' data-link="works/1.html">
-                  <img alt="" src="images/courses/rec2.jpeg">
-                  <div class="overlay">
-                    <div class="thumb-info">
-                    <h3>Recreational 2</h3>
-                    <p>Recreational Curriculum</p>
-                    </div>
-                  </div>
-                  </a>
-                </li>
-
-                <li class="fund">
-                  <a href="https://www.gue.com/diver-training/explore-gue-courses/foundational/fundamentals" target='_blank' data-link="works/1.html">
-                  <img alt="" src="images/courses/fund.jpeg">
-                  <div class="overlay">
-                    <div class="thumb-info">
-                    <h3>Fundamentals</h3>
-                    <p>Foundational Curriculum</p>
-                    </div>
-                  </div>
-                  </a>
-                </li>
-
-                <li class="fund">
-                  <a href="https://www.gue.com/diver-training/explore-gue-courses/foundational/doubles-primer" target='_blank' data-link="works/1.html">
-                  <img alt="" src="images/courses/primer-doubles.jpeg">
-                  <div class="overlay">
-                    <div class="thumb-info">
-                    <h3>Doubles Primer</h3>
-                    <p>Foundational Curriculum</p>
-                    </div>
-                  </div>
-                  </a>
-                </li>
-
-                <li class="fund">
-                  <a href="https://www.gue.com/diver-training/explore-gue-courses/foundational/drysuit-primer" target='_blank' data-link="works/3.html">
-                  <img alt="" src="images/courses/primer-drysuit.jpeg">
-                  <div class="overlay">
-                    <div class="thumb-info">
-                    <h3>Drysuit Primer</h3>
-                    <p>Foundational Curriculum</p>
-                    </div>
-                  </div>
-                  </a>
-                </li>
-
-                <li class="fund">
-                  <a href="https://www.gue.com/diver-training/explore-gue-courses/foundational/rescue" target='_blank' data-link="works/3.html">
-                  <img alt="" src="images/courses/primer-rescue.jpeg">
-                  <div class="overlay">
-                    <div class="thumb-info">
-                    <h3>Rescue Primer</h3>
-                    <p>Foundational Curriculum</p>
-                    </div>
-                  </div>
-                  </a>
-                </li>
-
-                <li class="fund">
-                  <a href="https://www.gue.com/diver-training/explore-gue-courses/foundational/triox" target='_blank' data-link="works/3.html">
-                  <img alt="" src="images/courses/primer-triox.jpeg">
-                  <div class="overlay">
-                    <div class="thumb-info">
-                    <h3>Triox Primer</h3>
-                    <p>Foundational Curriculum</p>
-                    </div>
-                  </div>
-                  </a>
-                </li>
-
-                <li class="fund">
-                  <a href="https://www.gue.com/diver-training/explore-gue-courses/foundational/navigation" target='_blank' data-link="works/3.html">
-                  <img alt="" src="images/courses/primer-navigation.jpeg">
-                  <div class="overlay">
-                    <div class="thumb-info">
-                    <h3>Navigation Primer</h3>
-                    <p>Foundational Curriculum</p>
-                    </div>
-                  </div>
-                  </a>
-                </li>
+              <!-- Social Media -->
+              <h4>Social Networks:</h4>
+              <ul>
+                <li><a target='_blank' href="https://www.instagram.com/nevcanuludas/"><i class="fa fa-instagram"></i></a></li>
+                <li><a target='_blank' href="https://medium.com/neptunsualti"><i class="fa fa-globe"></i></a></li>
+                <li><a target='_blank' href="https://www.linkedin.com/in/nevcanuludas"><i class="fa fa-linkedin"></i></a></li>
               </ul>
             </div>
           </div>
         </div>
+        <div class="four spacing"></div>
       </div>
 
-      <div class="four spacing"></div>
-      <div class="row">
-        <div class="large-12 columns">
-          <div class="section-title">
-            <h2>Scuba Coaching</h2>
-          </div>
-        </div>
-      </div>
+    </div>
+    <!-- #CONTACT -->
 
-      <div class="four spacing"></div>
-      <div class="row">
-        <div class="large-12 columns">
-          <div class="section-title">
-            <h2>Community Development</h2>
-          </div>
-        </div>
-      </div>
-
-      <div class="full centered-text grey" style="padding: 6rem 0; margin-top: 6rem">
-        <h1>Where do I begin?</h1>
-        <div class="spacing"></div>
-        <a href="" class="button let-us-talk">Let's talk</a>
-      </div>
-    </div>
-  </div>
-
-
-  <div id="blog" class="box">
-    <div class="header">
-    <div class="special-title">
-      <nav>
-      <h2><a href="#"><img src="images/@stock/blog.png" alt="Blog"></a></h2>
-      </nav>
-    </div>
-    <div class="desc invisible">
-      <h2>
-      Lorem ipsum dolor sit amet, consectetur adipisicing elit. Inventore, officia ipsum eum. Illo pariatur sapiente laborum quis accusamus eius doloribus necessitatibus!
-      </h2>
-    </div>
-    </div>
-    <div class="content invisible">
-  <div class="four spacing"></div>
-  <div class="two spacing"></div>
-  <div class="row">
-  <div class="large-12 columns">
-    <div class="post">
-    <div class="image">
-      <a href="single.html">
-      <img alt="" src="images/@stock/msn-work-52.jpg">
-      </a>
-    </div>
-    <div class="content">
-      <h3><a href="single.html">You can't do it unless you can imagine it.</a></h3>
-      <p class="info">
-      <span>December 15, 2014</span>
-      /
-      <span>
-        by
-        <a href="#">admin</a>
-      </span>
-      /
-      <span>
-        In
-        <a href="#">design</a>
-      </span>
-      /
-      <span>
-        <a href="#">4 commetns</a>
-      </span>
-      </p>
-
-    </div>
-    </div>
-    <div class="post">
-    <div class="image">
-      <a href="single.html">
-      <img alt="" src="images/@stock/msn-work-50.jpg">
-      </a>
-    </div>
-    <div class="content">
-      <h3><a href="single.html">Nature is the art of God.</a></h3>
-      <p class="info">
-      <span>December 15, 2014</span>
-      /
-      <span>
-        by
-        <a href="#">admin</a>
-      </span>
-      /
-      <span>
-        In
-        <a href="#">design</a>
-      </span>
-      /
-      <span>
-        <a href="#">4 commetns</a>
-      </span>
-      </p>
-
-    </div>
-    </div>
-    <div class="post">
-    <div class="image">
-      <a href="single.html">
-      <img alt="" src="images/@stock/msn-work-47.jpeg">
-      </a>
-    </div>
-    <div class="content">
-      <h3><a href="single.html">You can observe a lot by just watching.</a></h3>
-      <p class="info">
-      <span>December 15, 2014</span>
-      /
-      <span>
-        by
-        <a href="#">admin</a>
-      </span>
-      /
-      <span>
-        In
-        <a href="#">design</a>
-      </span>
-      /
-      <span>
-        <a href="#">4 commetns</a>
-      </span>
-      </p>
-
-    </div>
-    </div>
-    <div class="post">
-    <div class="image">
-      <a href="single.html">
-      <img alt="" src="images/@stock/msn-work-28.jpg">
-      </a>
-    </div>
-    <div class="content">
-      <h3><a href="single.html">Your artwork here.</a></h3>
-      <p class="info">
-      <span>December 15, 2014</span>
-      /
-      <span>
-        by
-        <a href="#">admin</a>
-      </span>
-      /
-      <span>
-        In
-        <a href="#">design</a>
-      </span>
-      /
-      <span>
-        <a href="#">4 commetns</a>
-      </span>
-      </p>
-
-    </div>
-    </div>
-    <div class="post">
-    <div class="image">
-      <a href="single.html">
-      <img alt="" src="images/@stock/people.jpg">
-      </a>
-    </div>
-    <div class="content">
-      <h3><a href="single.html">Quality is pride of workmanship.</a></h3>
-      <p class="info">
-      <span>December 15, 2014</span>
-      /
-      <span>
-        by
-        <a href="#">admin</a>
-      </span>
-      /
-      <span>
-        In
-        <a href="#">design</a>
-      </span>
-      /
-      <span>
-        <a href="#">4 commetns</a>
-      </span>
-      </p>
-
-    </div>
-    </div>
-    <div class="pager" data-connectors="1">
-    <a class="older" href="#">
-      Older Entries
-    </a>
-    <a class="newer" href="#">
-      Newer Entries
-    </a>
-    </div>
-
-  </div>
-  </div>
-
-
-  <div class="four spacing"></div>
-  <div class="two spacing"></div>
-
-
-</div>  </div>
-
-  <div class="logo" id="logo">
-    <h1>Creative</h1>
-    <div class="logo-image">
-      <a href="http://qr.gue.com/Nevcan" target="_blank">
-        <img src="images/qr.png" alt="QR Code">
-      </a>
-    </div>
-  </div>
-
-  <nav>
-    <a href="#" id="back" class="hide">
-    <i class="fa fa-close"></i>
-    </a>
-  </nav>
-
-  <div id="contact">
-    <h2 class="handle"><a href="">Contact</a></h2>
-    <div class="contact-info hide" style="display: none;">
-    <div class="four spacing"></div>
-    <div class="row ">
-      <div class="large-7 columns">
-      <div class="form">
-        <form id="contact_form" class="dark" method="POST" novalidate="novalidate">
-        <p id="thanks" class="hide">
-          Thanks for contacting us, we'll be in touch soon!
-        </p>
-        <input class="required" name="name" placeholder="NAME" type="text">
-        <input class="required email" name="email" placeholder="EMAIL" type="text">
-        <input class="required" name="subject" placeholder="SUBJECT" type="text">
-        <textarea class="required" name="message" placeholder="MESSAGE"></textarea>
-        <div class="spacing"></div>
-        <input class="button white small" type="submit">
-        </form>
-      </div>
-      </div>
-      <div class="large-4 columns">
-      <div class="contact-details">
-        <h4>Dive Center:</h4>
-        <p>Deep Dive Dubai, <br>Nad Al Sheba 1, Dubai, UAE</p>
-        <h4>Phone:</h4>
-        <p>
-          🇹🇷 <a href="tel:+905555435144">+90 555 543 5144</a>
-          <br>
-          🇦🇪 <a href="tel:+971504715144">+971 50 471 5144</a>
-          <div style="width: 20px;">
-            <a href="https://api.whatsapp.com/send?phone=905555435144&amp;amp;text=Hello%20👋🏻" target="_blank" title="Whatsapp"><img data-v-7377549c="" src="data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAAFAAAABQCAMAAAC5zwKfAAAB5lBMVEUAAAD////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////+/v5Zz2VVzWJDxFQ/wVEtt0L6+vpIxldc0WgwuUVLyFpRy184vks2vEkptkBNyVw7wE79/P1Qyl4ntT5g02tGxVUzu0j8/Pwrt0AiszcDqBslujkZsy8HqiENqyMvvkHw+fE+xU0itjYUrysMpiNKzFdCy08SrScpvjsbsDHi9uVtzXpUz183xkXa8N3S8ta96sKI1pM1wUYsuj75/frq+OzD5sio5q7K7tCi46l30YPz+/Tn9enW89qV1J6T3J1704l9y4hlw3JSu2JOzlotwj0CohoAphal3K6f16ed36WF1I9/2odkyXJl1HBXxWdSw2FKwFo+vFE9yEo6xUr2+/fZ9NzE68m647+147u06rmZ2aNfxm0xwkIqrT0Aow3Q7NOq4bKO1ZeM3pRzzYBw1Xxl0XFNv11Gy1NDvlM7tUwbqDDL6s6x5biN2piF245bvWkws0EAmwCGdOs+AAAALnRSTlMAAwUJnNDwu1oP9rMvHepvX0PWiWtJFqmje04+Nycj+uDGwYNmVPiUjoDlc9rLMN5SwAAACHxJREFUWMPFmIdf00AUx6HsLSigiLi3vi6o2Ka0QOlu6aCDvYeCKFuZAu699/xPfTdISiMBx0d/tNxd8ss3771Lrk1T/oNSE/TnsL8cGW3TqoqPHysq2pNdmp/DtvxOpPygqtKivRmZB4HqYO6hvNPZ+Wl09+/g8neVZ4JcWWeLfzlKYt6fLtLkzF1pzLVzXHFWLijp3DGVjKjAO7D3IGynjOKd5Z2KZy4qhERdbr3dNTzcNdbavBmZXiYSlcPLAkkD3UMvltqnWlBT7Y0LI/dvg6SSUjxgW17FGSm0+y80kchbRGlQ7caWlkhkamGoVTQcPM2ISrw91KnGd/PQUiTSrrnQmKALmvaWSPv4bWZBnVQpEbEi+xhPDfb77WtTjT+VNhIZHwCuvLQUlUJ8yGMaW+po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" alt="whatsapp"></a>
-          </div>
-        </p>
-        <div>
-          <h4>Email:</h4>
-          <p>nev@gue.com</p>
-        </div>
-        <h4>Social Networks:</h4>
-        <ul>
-        <li><a target='_blank' href="https://www.instagram.com/nevcanuludas/"><i class="fa fa-instagram'"></i></a></li>
-        <li><a target='_blank' href="https://medium.com/neptunsualti"><i class="fa fa-medium"></i></a></li>
-        <li><a target='_blank' href="https://www.linkedin.com/in/nevcanuludas"><i class="fa fa-linkedin"></i></a></li>
-        </ul>
-      </div>
-      </div>
-    </div>
-    
-    <div>
-      <ul>
-        <li>quest magazine</li>
-        <li>gue.tv</li>
-        <li>indepth.blog</li>
-        <li>gueacademy.com</li>
-        <li>gueturkey.com</li>
-      </ul>
-    </div>
-    
-    <div class="two spacing"></div>
-    
-  </div>
-  </div>
-
-  <script src="bower_components/jquery/dist/jquery.min.js"></script>
-  <script src="bower_components/foundation/js/foundation.min.js"></script>
-  <script src="js/slick.min.js"></script>
-  <script src="js/masonry.pkgd.js"></script>
-  <script src="js/imagesloaded.pkgd.min.js"></script>
-  <script src="js/jquery.appear.js"></script>
-  <script src="js/jquery.validate.js"></script>
-  <script src="js/app.js"></script>
-
-
-</body>
+    <!-- Scripts -->
+    <script src="bower_components/jquery/dist/jquery.min.js"></script>
+    <script src="bower_components/foundation/js/foundation.min.js"></script>
+    <script src="js/slick.min.js"></script>
+    <script src="js/masonry.pkgd.js"></script>
+    <script src="js/imagesloaded.pkgd.min.js"></script>
+    <script src="js/jquery.appear.js"></script>
+    <script src="js/jquery.validate.js"></script>
+    <script src="js/app.js"></script>
+  </body>
 </html>
