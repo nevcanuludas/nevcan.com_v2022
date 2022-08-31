@@ -794,3 +794,35 @@ input[type="text"], input[type="password"], input[type="date"], input[type="date
 /* studio images */
 .studio-images img {
   width: 100%; }
+
+
+
+/* NEVCAN STYLE */
+.section-title-alt {
+  text-align: center;
+  background-color: #DDD;
+}
+
+.section-title-alt h2 {
+  font-size: 2em;
+  line-height: 2em;
+}
+
+
+.organizations img,
+.brand-ambassadors img {
+  margin: 1rem 0;
+  padding: 0 2rem;
+  width: 100%;
+  filter: grayscale(100%);
+}
+
+.organizations div:hover img,
+.brand-ambassadors div:hover img {
+  filter: grayscale(0);
+}
+
+.organizations .current img {
+  padding: 0 30% 2rem;
+  filter: grayscale(0);
+}
