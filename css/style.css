@@ -216,7 +216,7 @@ h1.white, h2.white, h3.white, h4.white, h5.white, h6.white {
   left: 0;
   bottom: 0; }
 
-#blog {
+#community {
   right: 0;
   bottom: 0; }
 
@@ -229,7 +229,7 @@ h1.white, h2.white, h3.white, h4.white, h5.white, h6.white {
 #work .header {
   background: #ebebeb; }
 
-#blog .header {
+#community .header {
   background: #ddd; }
 
 .header {
@@ -440,7 +440,7 @@ h2.top img {
     #contact h2 a:hover {
       color: #0483ca; }
   #contact .contact-info {
-    background: #333; }
+    background: #333333F5; }
 
 #contact_form.dark input[type="text"], #contact_form.dark input[type="password"], #contact_form.dark input[type="date"], #contact_form.dark input[type="datetime"], #contact_form.dark input[type="datetime-local"], #contact_form.dark input[type="month"], #contact_form.dark input[type="week"], #contact_form.dark input[type="email"], #contact_form.dark input[type="number"], #contact_form.dark input[type="search"], #contact_form.dark input[type="tel"], #contact_form.dark input[type="time"], #contact_form.dark input[type="url"], #contact_form.dark textarea {
   background: none;

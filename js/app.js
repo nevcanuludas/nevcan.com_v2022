@@ -40,7 +40,7 @@ $(document).foundation();
           var top = "-50%";
           var backClass = "right-top";
           break;
-        case "blog":
+        case "community":
           var left = "-50%";
           var top = "-50%";
           var backClass = "left-top";
@@ -303,8 +303,8 @@ $(document).foundation();
     // console.log(window.location.hash);
 
     switch(window.location.hash) {
-      case "#blog-section":
-        $('#blog').click();
+      case "#community-section":
+        $('#community').click();
         setTimeout(function() {
           $('body').removeClass('hide');
         }, 500);
