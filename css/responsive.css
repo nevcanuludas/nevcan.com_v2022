@@ -42,13 +42,34 @@
       min-height: 400px; } }
 @media only screen and (max-width: 640px) {
   .box.active .header .special-title {
-    min-height: 260px; }
+    min-height: 260px;
+  }
 
   .masonry-gallery ul.gallery {
-    margin: 0; }
-    .masonry-gallery ul.gallery li {
-      width: 96%;
-      margin: 2%; }
+    margin: 0;
+  }
+  .masonry-gallery ul.gallery li {
+    width: 96%;
+    margin: 2%;
+  }
 
   .testimonials .quote {
-    font-size: 20px; } }
+    font-size: 20px;
+  } 
+}
+
+
+
+/* NEVCAN STYLE */
+
+@media only screen and (max-width: 640px) {
+  .box:not(.active) .header-image {
+    transform: rotate(315deg);
+    bottom: 40% !important;
+    margin-top: 50% !important;
+  }
+
+  .box.active .header-image {
+    max-width: 100% !important;
+  }
+}
