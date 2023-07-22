@@ -836,3 +836,10 @@ footer h2 {
   font-size: 4rem;
   font-weight: 800;
 }
+
+.button.myCertificate {
+  margin: auto 5px;
+  border: 1px solid white;
+  padding: 8px;
+  font-size: .65rem;
+}
