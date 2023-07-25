@@ -1,0 +1,138 @@
+body {
+  margin: 0;
+  color: #303030;
+  font-family: 'Open Sans', sans-serif;
+}
+
+.row {
+  display: flex;
+  align-items: stretch;
+  width: 100%;
+}
+
+.is-4 {
+  margin: 0;
+  border: none;
+  padding: 0;
+  width: 25%;
+}
+
+.card {
+  display: none;
+  margin: 1rem;
+  border: 3px solid #303030;
+  border-radius: 100%;
+  padding: 1rem;
+  height: 100%;
+  text-align: center;
+}
+
+.card-no {
+  font-size: 4em;
+  line-height: 1em;
+}
+
+header.course-header {
+  display: flex;
+  margin: 0;
+  border: none;
+  padding: 0;
+  width: 100%;
+}
+
+.course-img {
+  width: 50%;
+  background-color: #f9f9f9;
+}
+
+.course-img img {
+  width: 100%;
+}
+
+.course-desc {
+  width: calc(50% - 4rem);
+  padding: 2rem;
+  color: #FFF;
+  font-size: 1.25rem;
+  background-color: #0283ca;
+  letter-spacing: .5px;
+  line-height: 1.75rem;
+}
+
+.course-title {
+  font-size: 3.5rem;
+  line-height: 3.5rem;
+}
+
+main {
+  margin: 0 auto;
+  width: 1024px;
+  line-height: 1.6;
+}
+
+main a {
+  color: #0283ca;
+  text-decoration: none;
+}
+
+main section {
+  margin-bottom: 5rem;
+}
+
+main table {
+  margin: 2rem auto;
+  width: 700px;
+  border: 1px solid #DDD
+}
+
+main table tr * {
+  padding: .5rem 1rem
+}
+
+main table tr *:first-child {
+  text-align: right;
+}
+
+main table tr *:last-child {
+  text-align: left;
+}
+
+td.text-light {
+  color: #777;
+  font-size: .75em;
+  font-style: italic;
+}
+
+.section-title {
+  margin-top: 5rem;
+  display: block;
+  width: 100%;
+  text-align: center;
+}
+
+.section-title h2 {
+  display: inline-block;
+  margin: 0;
+  padding: 0 2rem;
+  font-weight: lighter;
+  background: #FFF;
+}
+
+.section-title::after {
+  content: "";
+  position: relative;
+  top: -2.4rem;
+  display: inline-block;
+  width: 100%;
+  height: 1px;
+  background: #DDD;
+  z-index: -1;
+}
+
+footer {
+  margin: 0;
+  padding: 5rem;
+  width: 100%;
+  color: #FFF;
+  background-color: #303030;
+}

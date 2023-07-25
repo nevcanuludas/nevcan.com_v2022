@@ -605,11 +605,16 @@ h2.top img {
       color: #0483ca; }
 
 .masonry-gallery ul.gallery {
-  margin: 0; }
-  .masonry-gallery ul.gallery li {
-    width: 30%;
-    margin: 1.6%;
-    display: block; }
+  margin: 0;
+}
+
+.masonry-gallery ul.gallery li {
+  width: 30%;
+  margin: 1.6%;
+  display: block;
+  height: 200px;
+  overflow: hidden;
+}
     .masonry-gallery ul.gallery li a {
       position: relative;
       display: block;
@@ -618,6 +623,7 @@ h2.top img {
         color: #333;
         font-size: 14px; }
     .masonry-gallery ul.gallery li img {
+      margin-top: -10%;
       width: 100%;
       -webkit-transform: scale(1);
       -moz-transform: scale(1);
@@ -629,7 +635,7 @@ h2.top img {
       transition-duration: 0.5s; }
     .masonry-gallery ul.gallery li .overlay {
       width: calc(100% - 20px);
-      height: calc(100% - 20px);
+      height: 180px;
       top: 10px;
       left: 10px;
       border: none;
