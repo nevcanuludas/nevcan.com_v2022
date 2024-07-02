@@ -169,9 +169,9 @@ $(document).foundation();
       $('.gallery-nav ul li a', $ctx).click(function() {
 
         // disable filter
-        // if( $('.gallery-nav', $ctx).hasClass('disabled') ) return false;
+        if( $('.gallery-nav', $ctx).hasClass('disabled') ) return false;
 
-        // $('.gallery-nav', $ctx).addClass('disabled');
+        $('.gallery-nav', $ctx).addClass('disabled');
 
         $('.gallery-nav ul li').removeClass('current');
         $(this).closest('li').addClass('current');
@@ -243,9 +243,9 @@ $(document).foundation();
 
 
         // enable filter
-        // setTimeout(function() {
-        //   $('.gallery-nav', $ctx).removeClass('disabled');
-        // }, 500);
+        setTimeout(function() {
+          $('.gallery-nav', $ctx).removeClass('disabled');
+        }, 500);
 
         return false;
 
@@ -259,7 +259,7 @@ $(document).foundation();
     });
 
 
-    // masonryGallery('#masonry-gallery')
+    masonryGallery('#masonry-gallery')
 
 
     $('.fadeinleft, .fadeinright, .fadein, .popin, .moveup, .diamond-milestones-wrapper').appear(function() {
