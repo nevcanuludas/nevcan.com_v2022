@@ -849,3 +849,19 @@ footer h2 {
   padding: 8px;
   font-size: .65rem;
 }
+
+.guetv {
+  position: absolute;
+  right: 1em;
+  bottom: 15px;
+  background: #fff;
+  border-radius: 100%;
+  width: 65px;
+  height: 65px;
+  text-align: center;
+}
+
+.guetv img {
+  margin: 10px 0 0 5px;
+  width: 40px;
+}
