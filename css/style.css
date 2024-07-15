@@ -865,3 +865,8 @@ footer h2 {
   margin: 10px 0 0 5px;
   width: 40px;
 }
+
+.guetv:hover {
+  transform: scale(1.1);
+  transition-duration: .25s;
+}
