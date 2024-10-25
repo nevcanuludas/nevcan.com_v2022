@@ -814,7 +814,6 @@ input[type="text"], input[type="password"], input[type="date"], input[type="date
   line-height: 2em;
 }
 
-
 .organizations img,
 .brand-ambassadors img {
   margin: 1rem 0;
@@ -831,6 +830,10 @@ input[type="text"], input[type="password"], input[type="date"], input[type="date
 .organizations .current img {
   padding: 0 30% 2rem;
   filter: grayscale(0);
+}
+
+.masonry-gallery.alternative ul.gallery li {
+  width: 96%;
 }
 
 footer {
