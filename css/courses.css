@@ -43,7 +43,7 @@ header.course-header {
 }
 
 .course-img {
-  width: 50%;
+  width: 40%;
   background-color: #f9f9f9;
 }
 
@@ -52,10 +52,10 @@ header.course-header {
 }
 
 .course-desc {
-  width: calc(50% - 4rem);
+  width: calc(60% - 4rem);
   padding: 2rem;
   color: #FFF;
-  font-size: 1.25rem;
+  font-size: 1rem;
   background-color: #0283ca;
   letter-spacing: .5px;
   line-height: 1.75rem;
