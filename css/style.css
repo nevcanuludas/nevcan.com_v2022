@@ -190,7 +190,9 @@ h1.white, h2.white, h3.white, h4.white, h5.white, h6.white {
     height: 50%;
     width: 100%;
     min-height: 500px;
-    background: #f9f9f9 !important; }
+    background: #f9f9f9 !important; 
+    overflow: hidden; /* Nev */
+  }
     .box.active .header a {
       cursor: default; }
     .box.active .header .special-title {
@@ -812,6 +814,12 @@ input[type="text"], input[type="password"], input[type="date"], input[type="date
 .section-title-alt h2 {
   font-size: 2em;
   line-height: 2em;
+}
+
+.inbox-scroll {
+  overflow: scroll;
+  margin-bottom: 1em;
+  height: 350px;
 }
 
 .organizations img,
