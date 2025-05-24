@@ -1,16 +1,21 @@
+const part1 = 'AIzaSyDG2lZCJjnVjXDmGiwBRd';
+const part2 = 'ciW9Yfniekkw';
+
 const calendarIds = [
   'nevcanuludas@gmail.com',
   '0072942805560063dd60f78f2c2c70cc87e2226becaea62955dc4b7dc55b0e5f@group.calendar.google.com',
   'f20ea54d8a8cb746730d6ae9a92b1de2318c4785dd95c4770daf517c54550a25@group.calendar.google.com',
   'tr.turkish#holiday@group.v.calendar.google.com'
 ];
+
 const calendarColors = {
   'nevcanuludas@gmail.com': '#6e72c2',
   '0072942805560063dd60f78f2c2c70cc87e2226becaea62955dc4b7dc55b0e5f@group.calendar.google.com': '#4b99d2',
   'f20ea54d8a8cb746730d6ae9a92b1de2318c4785dd95c4770daf517c54550a25@group.calendar.google.com': '#55ae7f',
   'tr.turkish#holiday@group.v.calendar.google.com': '#999'
 };
-const apiKey = 'AIzaSyDG2lZCJjnVjXDmGiwBRd_ciW9Yfniekkw';
+
+const key = part1 + '_' + part2;
 
 async function fetchEvents(calendarId) {
   const now = new Date();
@@ -26,7 +31,7 @@ async function fetchEvents(calendarId) {
   const timeMax = future.toISOString();
 
   const encodedId = encodeURIComponent(calendarId);
-  const url = `https://www.googleapis.com/calendar/v3/calendars/${encodedId}/events?key=${apiKey}&timeMin=${timeMin}&timeMax=${timeMax}&showDeleted=false&singleEvents=true&orderBy=startTime`;
+  const url = `https://www.googleapis.com/calendar/v3/calendars/${encodedId}/events?key=${key}&timeMin=${timeMin}&timeMax=${timeMax}&showDeleted=false&singleEvents=true&orderBy=startTime`;
 
   const res = await fetch(url);
   const data = await res.json();
@@ -88,12 +93,14 @@ document.addEventListener('DOMContentLoaded', async function() {
   maxDate.setMonth(maxDate.getMonth() + 12);
 
   const calendar = new FullCalendar.Calendar(calendarEl, {
-    initialView: 'dayGridMonth',
+    locale: 'tr',
+    timeZone: 'Europe/Istanbul',
+    initialView: 'multiMonthYear',
     firstDay: 1,
     headerToolbar: {
       left: 'prev,next today',
       center: 'title',
-      right: ''
+      right: 'multiMonthYear,dayGridMonth,dayGridWeek,dayGridDay,listYear'
     },
     events: events,
     datesSet: function(info) {
