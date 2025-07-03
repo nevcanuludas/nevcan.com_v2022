@@ -1,0 +1,12 @@
+[
+  { "name": "Türkiye", "iso": "TUR", "iso2": "tr", "value": 1 },
+  { "name": "Russia", "iso": "RUS", "iso2": "ru", "value": 1 },
+  { "name": "Egypt", "iso": "EGY", "iso2": "eg", "value": 1 },
+  { "name": "Spain", "iso": "ESP", "iso2": "es", "value": 1 },
+  { "name": "United Arab Emirates", "iso": "ARE", "iso2": "ae", "value": 1 },
+  { "name": "Oman", "iso": "OMN", "iso2": "om", "value": 1 },
+  { "name": "Germany", "iso": "DEU", "iso2": "de", "value": 1 },
+  { "name": "Switzerland", "iso": "CHE", "iso2": "ch", "value": 1 },
+  { "name": "Italy", "iso": "ITA", "iso2": "it", "value": 1 },
+  { "name": "Vatican City", "iso": "VAT", "iso2": "va", "value": 1 }
+]

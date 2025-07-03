@@ -1,0 +1,162 @@
+[
+  {
+    "plate": "06",
+    "town": [],
+    "city": "Ankara",
+    "country": "Türkiye",
+    "coords": [39.9208, 32.8541]
+  },
+  {
+    "plate": "07",
+    "town": [
+      {"name": "Alanya", "coords": [36.5433, 31.9992]},
+      {"name": "Demre", "coords": [36.2275, 29.9792]},
+      {"name": "Döşemealtı", "coords": [36.8833, 30.6167]},
+      {"name": "Elmalı", "coords": [36.6342, 29.9494]},
+      {"name": "Finike", "coords": [36.2900, 30.1167]},
+      {"name": "Gazipaşa", "coords": [36.3225, 32.3056]},
+      {"name": "Kaş", "coords": [36.2028, 29.6340]},
+      {"name": "Kemer", "coords": [36.6102, 30.5643]},
+      {"name": "Konyaaltı", "coords": [36.8841, 30.7056]},
+      {"name": "Korkuteli", "coords": [36.7500, 30.3000]},
+      {"name": "Kumluca", "coords": [36.4000, 30.3000]},
+      {"name": "Muratpaşa", "coords": [36.9000, 30.7000]}
+    ],
+    "city": "Antalya",
+    "country": "Türkiye",
+    "coords": [36.8841, 30.7056]
+  },
+  {
+    "plate": "09",
+    "town": [],
+    "city": "Aydın",
+    "country": "Türkiye",
+    "coords": [37.8456, 27.8458]
+  },
+  {
+    "plate": "10",
+    "town": [],
+    "city": "Balıkesir",
+    "country": "Türkiye",
+    "coords": [39.6494, 27.8826]
+  },
+  {
+    "plate": "15",
+    "town": [],
+    "city": "Burdur",
+    "country": "Türkiye",
+    "coords": [37.7203, 30.2900]
+  },
+  {
+    "plate": "17",
+    "town": [],
+    "city": "Çanakkale",
+    "country": "Türkiye",
+    "coords": [40.1553, 26.4142]
+  },
+  {
+    "plate": "20",
+    "town": [],
+    "city": "Denizli",
+    "country": "Türkiye",
+    "coords": [37.7765, 29.0864]
+  },
+  {
+    "plate": "22",
+    "town": [],
+    "city": "Edirne",
+    "country": "Türkiye",
+    "coords": [41.6771, 26.5557]
+  },
+  {
+    "plate": "26",
+    "town": [],
+    "city": "Eskişehir",
+    "country": "Türkiye",
+    "coords": [39.7767, 30.5206]
+  },
+  {
+    "plate": "27",
+    "town": [],
+    "city": "Gaziantep",
+    "country": "Türkiye",
+    "coords": [37.0662, 37.3833]
+  },
+  {
+    "plate": "31",
+    "town": [],
+    "city": "Hatay",
+    "country": "Türkiye",
+    "coords": [36.2028, 36.1614]
+  },
+  {
+    "plate": "32",
+    "town": [],
+    "city": "Isparta",
+    "country": "Türkiye",
+    "coords": [37.7649, 30.5566]
+  },
+  {
+    "plate": "33",
+    "town": [],
+    "city": "Mersin",
+    "country": "Türkiye",
+    "coords": [36.8000, 34.6333]
+  },
+  {
+    "plate": "34",
+    "town": [],
+    "city": "İstanbul",
+    "country": "Türkiye",
+    "coords": [41.0082, 28.9784]
+  },
+  {
+    "plate": "35",
+    "town": [],
+    "city": "İzmir",
+    "country": "Türkiye",
+    "coords": [38.4192, 27.1287]
+  },
+  {
+    "plate": "41",
+    "town": [],
+    "city": "Kocaeli",
+    "country": "Türkiye",
+    "coords": [40.7651, 29.9407]
+  },
+  {
+    "plate": "48",
+    "town": [],
+    "city": "Muğla",
+    "country": "Türkiye",
+    "coords": [37.2153, 28.3636]
+  },
+  {
+    "plate": "50",
+    "town": [],
+    "city": "Nevşehir",
+    "country": "Türkiye",
+    "coords": [38.6247, 34.6851]
+  },
+  {
+    "plate": "67",
+    "town": [],
+    "city": "Zonguldak",
+    "country": "Türkiye",
+    "coords": [41.4564, 31.7987]
+  },
+  {
+    "plate": "78",
+    "town": [],
+    "city": "Yalova",
+    "country": "Türkiye",
+    "coords": [40.6500, 29.2667]
+  },
+  {
+    "plate": "80",
+    "town": [],
+    "city": "Erzincan",
+    "country": "Türkiye",
+    "coords": [39.9334, 39.9334]
+  }
+]

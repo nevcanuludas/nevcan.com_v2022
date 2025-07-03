@@ -1,0 +1,137 @@
+[
+  {
+    "plate": "41",
+    "town": [],
+    "city": "Kocaeli",
+    "country": "Türkiye",
+    "coords": [40.7655, 29.9405]
+  },
+  {
+    "plate": "34",
+    "town": [],
+    "city": "İstanbul",
+    "country": "Türkiye",
+    "coords": [41.0256, 29.0018]
+  },
+  {
+    "plate": "22",
+    "town": [],
+    "city": "Edirne",
+    "country": "Türkiye",
+    "coords": [41.6771, 26.5556]
+  },
+  {
+    "plate": "17",
+    "town": [],
+    "city": "Çanakkale",
+    "country": "Türkiye",
+    "coords": [40.1553, 26.4142]
+  },
+  {
+    "plate": "10",
+    "town": [],
+    "city": "Balıkesir",
+    "country": "Türkiye",
+    "coords": [39.6484, 27.8826]
+  },
+  {
+    "plate": "35",
+    "town": [],
+    "city": "İzmir",
+    "country": "Türkiye",
+    "coords": [38.4192, 27.1287]
+  },
+  {
+    "plate": "09",
+    "town": [],
+    "city": "Aydın",
+    "country": "Türkiye",
+    "coords": [37.8440, 27.8456]
+  },
+  {
+    "plate": "48",
+    "town": [],
+    "city": "Muğla",
+    "country": "Türkiye",
+    "coords": [37.2150, 28.3636]
+  },
+  {
+    "plate": "07",
+    "town": [],
+    "city": "Antalya",
+    "country": "Türkiye",
+    "coords": [36.8841, 30.7056]
+  },
+  {
+    "plate": "31",
+    "town": [],
+    "city": "Hatay",
+    "country": "Türkiye",
+    "coords": [36.4018, 36.3498]
+  },
+  {
+    "plate": "26",
+    "town": [],
+    "city": "Eskişehir",
+    "country": "Türkiye",
+    "coords": [39.7667, 30.5256]
+  },
+  {
+    "plate": "32",
+    "town": [],
+    "city": "Isparta",
+    "country": "Türkiye",
+    "coords": [37.7648, 30.5565]
+  },
+  {
+    "plate": "",
+    "town": [],
+    "city": "Hurghada",
+    "country": "Egypt",
+    "coords": [27.2579, 33.8123]
+  },
+  {
+    "plate": "",
+    "town": [],
+    "city": "Sharm El-Sheikh",
+    "country": "Egypt",
+    "coords": [27.9158, 34.3299]
+  },
+  {
+    "plate": "",
+    "town": [],
+    "city": "Dahab",
+    "country": "Egypt",
+    "coords": [28.5016, 34.5130]
+  },
+  {
+    "plate": "",
+    "town": [],
+    "city": "Dubai",
+    "country": "UAE",
+    "coords": [25.276987, 55.296249]
+  },
+  {
+    "plate": "",
+    "town": [],
+    "city": "Fujairah",
+    "country": "UAE",
+    "coords": [25.1265, 56.0344]
+  },
+  {
+    "plate": "",
+    "town": [
+      {"name": "Daymaniyat Islands", "coords": [23.5000, 58.0000]}
+    ],
+    "city": "Muscat",
+    "country": "Oman",
+    "coords": [23.5880, 58.3829]
+  },
+  {
+    "plate": "",
+    "town": [],
+    "city": "Murcia",
+    "country": "Spain",
+    "coords": [37.9922, -1.1307]
+  }
+]

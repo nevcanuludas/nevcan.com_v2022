@@ -1,0 +1,45 @@
+<!DOCTYPE html>
+<html>
+<head>
+  <title>Visited Countries Map</title>
+  <meta charset="utf-8" />
+  <link rel="stylesheet" href="https://unpkg.com/leaflet/dist/leaflet.css" />
+  <style>
+    html, body {
+      margin: 0;
+      padding: 0;
+      font-family: Arial, sans-serif;
+    }
+
+    #map { 
+      position: relative;
+      float: left;
+      margin-right: 2em;
+      width: 75%;
+      height: 100vh;
+    }
+  </style>
+</head>
+<body>
+  <div id="map"></div>
+
+  <div>
+    <label><input type="radio" name="category" value="countries" checked> 🛂 </label>
+    <label><input type="radio" name="category" value="visitedCities"> 🩶 </label>
+    <label><input type="radio" name="category" value="diveCities"> 💙 </label>
+    <label><input type="radio" name="category" value="loveCities"> ❤️ </label>
+  </div>
+
+  <div id="name-list" style="margin: 20px;"></div>
+
+  <!-- Leaflet -->
+  <link rel="stylesheet" href="https://unpkg.com/leaflet/dist/leaflet.css" />
+  <script src="https://unpkg.com/leaflet/dist/leaflet.js"></script>
+
+  <!-- D3 for color scale -->
+  <script src="https://d3js.org/d3.v6.min.js"></script>
+
+  <!-- Your custom script -->
+  <script src="./js/visited-map.js"></script>
+</body>
+</html>
