@@ -1,0 +1,12 @@
+.container {
+  max-width: 1023px;
+}
+
+.container.is-widescreen {
+  min-width: 1152px;
+  max-width: 1344px;
+}
+
+.container.is-fullhd {}
+.container.is-max-desktop	{}
+.container.is-max-widescreen {}

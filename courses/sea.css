@@ -1,0 +1,229 @@
+* {
+  box-sizing: border-box;
+  margin: auto;
+}
+
+body {
+  position: relative;
+  height: 100vh;
+  display: flex;
+  background: radial-gradient(circle at bottom right, #032140, #004880 69%, #00548d 70%, #acc8de), #032140;
+  overflow: hidden;
+  perspective: 1440px;
+}
+
+svg {
+  position: absolute;
+}
+
+main {
+  filter: opacity(1);
+}
+
+.sea {
+  position: absolute;
+  width: 100%;
+  height: 100%;
+  background: #ffff000f;
+}
+
+.sea .surface {
+  position: absolute;
+  width: 100%;
+  height: 100%;
+  backdrop-filter: blur(8px);
+  background-size: cover;
+  filter: url(#displacementFilter) url(#goo);
+}
+
+.sea .bubble {
+  position: absolute;
+  width: 50vw;
+  aspect-ratio: 1/1;
+  border-radius: 50%;
+  border: 5px solid #fff;
+  transform-origin: center;
+  transform: translate(-50%, -50%) scale(0);
+  opacity: 0;
+  animation: bubble 5s ease-in-out infinite;
+}
+
+.sea .bubble:nth-of-type(1) {
+  width: 42vw;
+  top: 56vh;
+  left: 9vw;
+  border-width: 4px;
+  animation-duration: 6s;
+  animation-delay: 2.2297930527s;
+}
+
+.sea .bubble:nth-of-type(2) {
+  width: 28vw;
+  top: 74vh;
+  left: 83vw;
+  border-width: 4px;
+  animation-duration: 9s;
+  animation-delay: 2.5433181178s;
+}
+
+.sea .bubble:nth-of-type(3) {
+  width: 27vw;
+  top: 48vh;
+  left: 66vw;
+  border-width: 3px;
+  animation-duration: 7s;
+  animation-delay: 2.9545073884s;
+}
+
+.sea .bubble:nth-of-type(4) {
+  width: 30vw;
+  top: 7vh;
+  left: 1vw;
+  border-width: 4px;
+  animation-duration: 6s;
+  animation-delay: 2.1819368199s;
+}
+
+.sea .bubble:nth-of-type(5) {
+  width: 26vw;
+  top: 67vh;
+  left: 76vw;
+  border-width: 5px;
+  animation-duration: 10s;
+  animation-delay: 2.6838479956s;
+}
+
+.sea .bubble:nth-of-type(6) {
+  width: 36vw;
+  top: 4vh;
+  left: 69vw;
+  border-width: 5px;
+  animation-duration: 7s;
+  animation-delay: 1.3088508033s;
+}
+
+.sea .bubble:nth-of-type(7) {
+  width: 27vw;
+  top: 16vh;
+  left: 25vw;
+  border-width: 5px;
+  animation-duration: 7s;
+  animation-delay: 1.427294415s;
+}
+
+.sea .bubble:nth-of-type(8) {
+  width: 43vw;
+  top: 67vh;
+  left: 81vw;
+  border-width: 3px;
+  animation-duration: 6s;
+  animation-delay: 2.6481182804s;
+}
+
+.sea .fish {
+  position: absolute;
+  width: 38px;
+  aspect-ratio: 0.3/1;
+  display: flex;
+  flex-direction: column;
+  filter: url(#goo);
+  animation: voyage 20s linear infinite;
+  transform: rotate(38deg);
+}
+
+.sea .fish .part {
+  width: 100%;
+  flex-grow: 2;
+  background: #006793;
+}
+
+.sea .fish .part.head {
+  transform-origin: bottom center;
+  clip-path: polygon(50% 0%, 100% 100%, 0% 100%);
+  animation: swim 1.3s linear infinite;
+}
+
+.sea .fish .part.tail {
+  transform-origin: top center;
+  flex-grow: 4;
+  clip-path: polygon(50% 100%, 100% 0%, 0% 0%);
+  animation: swim 1.3s linear infinite reverse;
+}
+
+.sea .fish:nth-of-type(1) {
+  top: 110vh;
+  left: 30vw;
+  animation-delay: 0.3622883031s;
+  animation-duration: 11s;
+}
+
+.sea .fish:nth-of-type(2) {
+  top: 50vh;
+  left: -5vw;
+  animation-delay: 1.4473717771s;
+  animation-duration: 18s;
+}
+
+.sea .fish:nth-of-type(3) {
+  top: 110vh;
+  left: 70vw;
+  animation-delay: 2.0219397272s;
+  animation-duration: 11s;
+}
+
+.wave {
+  -webkit-mask: radial-gradient(46.6154480832px at 50% calc(100% - (27px + 38px)), blue 99%, #0000 101%), radial-gradient(46.6154480832px at 50% calc(100% + 38px), #0000 99%, red 101%) repeat-x;
+  -webkit-mask-size: calc(4*27px) 100%;
+  -webkit-mask-position: calc(50% - 2*27px) 0, 50% calc(100% - 27px);
+  animation: flow 5s linear infinite;
+}
+
+.wave.oppo {
+  animation-direction: reverse;
+}
+
+@keyframes flow {
+  100% {
+    -webkit-mask-position: calc(50% - 6*27px) 0, calc(50% - 4*27px) calc(200% - 27px);
+  }
+}
+
+@keyframes swim {
+  0%, 100% {
+    transform: rotate(0deg);
+  }
+  33.3% {
+    transform: rotate(15deg);
+  }
+  75% {
+    transform: rotate(-15deg);
+  }
+}
+
+@keyframes voyage {
+  100% {
+    translate: 40vw -130vh;
+  }
+}
+
+@keyframes sheen {
+  100% {
+    background-position: 150% 0%;
+  }
+}
+
+@keyframes bubble {
+  50% {
+    opacity: 1;
+  }
+  100% {
+    opacity: 0;
+    transform: translate(-50%, -50%) scale(1);
+  }
+}
+
+@media (max-width: 700px) {
+  .quote figure, .quote figure figcaption {
+    font-size: clamp(30px, 10vw, 4rem);
+  }
+}

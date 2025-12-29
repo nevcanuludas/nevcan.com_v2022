@@ -1,0 +1,183 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="./sea.css">
+    <link rel="stylesheet" href="./nev.css">
+    <link rel="stylesheet" href="reef/main.css">
+    <title>GUE Courses</title>
+    <meta name="author" content="Nevcan Uludaş">
+</head>
+<body>
+  
+  <!-- BACKGROUND -->
+  <div class="sea">
+
+    <!-- FISH -->
+    <div>
+      <div class="fish">
+        <div class="part head"></div>
+        <div class="part body"></div>
+        <div class="part tail"></div>
+      </div>
+      <div class="fish">
+        <div class="part head"></div>
+        <div class="part body"></div>
+        <div class="part tail"></div>
+      </div>
+      <div class="fish">
+        <div class="part head"></div>
+        <div class="part body"></div>
+        <div class="part tail"></div>
+      </div>
+    </div>
+
+    <!-- BUBBLES -->
+    <div>
+      <div class="bubble"></div>
+      <!-- 
+      <div class="bubble"></div>
+      <div class="bubble"></div>
+      <div class="bubble"></div>
+      <div class="bubble"></div>
+      <div class="bubble"></div>
+      <div class="bubble"></div> 
+      -->
+      <div class="bubble"></div>
+    </div>
+
+    <!-- SURFACE -->
+    <div class="surface"></div>
+  </div>
+  
+  <!-- MAIN -->
+  <main class="container">
+    <!-- <section class="item">
+      <header class="header">
+        <a class="navbar-item">
+          <h1>Training with Nev</h1>
+        </a>
+              
+        <nav>
+          <a class="navbar-item"> Recreational </a>
+          <a class="navbar-item"> Primer </a>
+          <a class="navbar-item is-active"> Foundational </a>
+          <a class="navbar-item"> Technical </a>
+          <a class="navbar-item"> Cave </a>
+          <a class="navbar-item"> DAN </a>
+          <a class="navbar-item"> Professional </a>
+          <span class="navbar-item">
+            <a class="button is-info is-inverted">
+              <span class="icon">
+                <i class="fab fa-github"></i>
+              </span>
+              <span>GUE.tv</span>
+            </a>
+          </span>
+        </nav>
+      </header>
+    </section> -->
+
+    <section class="item .is-half">
+      <div class="glasscard">
+        <p class="title">GUE Technical Fundamentals</p>
+        <p class="subtitle">Subtitle</p>
+      </div>
+    </section>
+
+    <section class="item">
+      <div class="glasscard">
+        <p class="title">GUE Basic Fundamentals</p>
+        <p class="subtitle">Subtitle</p>
+      </div>
+    </section>
+
+    <section class="item">
+      <div class="glasscard">
+        <p class="title">Gas Blender</p>
+        <p class="subtitle">Subtitle</p>
+      </div>
+    </section>
+
+    <section class="item">
+      <div class="glasscard">
+        <p class="title">Deep Primer</p>
+        <p class="subtitle">Subtitle</p>
+      </div>
+    </section>
+
+    <section class="item">
+      <div class="glasscard">
+        <p class="title">GUE Performance Diver</p>
+        <p class="subtitle">Subtitle</p>
+      </div>
+    </section>
+
+    <section class="item">
+      <div class="glasscard">
+        <p class="title">Open Water Diver</p>
+        <p class="subtitle">Subtitle</p>
+      </div>
+    </section>
+
+    <section class="item">
+      <div class="glasscard">
+        <p class="title">GUE FUNDAMENTALS</p>
+        <p class="subtitle">Subtitle</p>
+      </div>
+    </section>
+
+    <section class="item">
+      <div class="glasscard">
+        <p class="title">GUE FUNDAMENTALS</p>
+        <p class="subtitle">Subtitle</p>
+      </div>
+    </section>
+
+    <section class="item">
+      <div class="glasscard">
+        <p class="title">GUE FUNDAMENTALS</p>
+        <p class="subtitle">Subtitle</p>
+      </div>
+    </section>
+  </main>
+
+  <!-- footer: will stick at the bottom -->
+  <!-- <footer class="footer">
+    <nav class="tabs">
+      <div class="container">
+        <ul>
+          <li class="is-active"><a>Open Water</a></li>
+          <li><a>Advanced Open Water</a></li>
+          <li><a>Master Diver</a></li>
+          <li><a>Discover Diving</a></li>
+          <li><a>Scuba Diver</a></li>
+        </ul>
+      </div>
+    </nav>
+  </footer> -->
+
+  <!-- UNKNOWN SVG -->
+  <svg xmlns="http://www.w3.org/2000/svg" version="1.1">
+    <defs>
+      <filter id="goo">
+        <feGaussianBlur in="SourceGraphic" stdDeviation="5" result="blur"></feGaussianBlur>
+        <feColorMatrix in="blur" mode="matrix" values="1 0 0 0 0  0 1 0 0 0  0 0 1 0 0  0 0 0 19 -9" result="goo"></feColorMatrix>
+        <!--feBlend(in="SourceGraphic" in2="goo")-->
+        <feComposite in="SourceGraphic" in2="goo" operator="atop"></feComposite>
+      </filter>
+    </defs>
+  </svg>
+
+  <!-- SURFACE SVG -->
+  <svg xmlns="https://wrw.w3.org/2000/svg">
+    <filter id="displacementFilter" x="0" y="0" width="100%" height="100%">
+      <feTurbulence id="sea-filter" type="turbulence" baseFrequency="0.02 0.05" numbOctaves="3" seed="2" result="turbulence"></feTurbulence>
+      <feDisplacementMap in2="turbulence" in="SourceGraphic" scale="50" xChannelSelector="R" yChannelSelector="G"></feDisplacementMap>
+      <animate xlink:href="#sea-filter" attributeName="baseFrequency" dur="60s" keyTimes="0;0.5;1" values="0.02 0.06;0.04 0.08;0.02 0.06" repeatCount="indefinite"></animate>
+    </filter>
+  </svg>
+
+</body>
+</html>
